@@ -1,0 +1,503 @@
+[10/01/2018 23:56] INFO __main__ <module> 78: Serverdict Not Found - Looking for Backup
+[10/01/2018 23:56] INFO __main__ <module> 84: Serverdict Backup Not Found - Creating New Serverdict
+[10/01/2018 23:56] INFO __main__ <module> 78: Serverdict Not Found - Looking for Backup
+[10/01/2018 23:56] INFO __main__ <module> 84: Serverdict Backup Not Found - Creating New Serverdict
+[10/01/2018 23:56] INFO __main__ <module> 78: Serverdict Not Found - Looking for Backup
+[10/01/2018 23:56] INFO __main__ <module> 84: Serverdict Backup Not Found - Creating New Serverdict
+[10/01/2018 23:56] INFO __main__ <module> 78: Serverdict Not Found - Looking for Backup
+[10/01/2018 23:56] INFO __main__ <module> 84: Serverdict Backup Not Found - Creating New Serverdict
+[11/01/2018 00:02] INFO __main__ <module> 78: Serverdict Not Found - Looking for Backup
+[11/01/2018 00:02] INFO __main__ <module> 84: Serverdict Backup Not Found - Creating New Serverdict
+[11/01/2018 00:02] INFO __main__ <module> 88: Serverdict Created
+[11/01/2018 00:02] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:02] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:02] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:02] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:06] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:06] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:06] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:06] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:06] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:07] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:07] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:07] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:07] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:08] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:08] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:08] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:08] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:08] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:08] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:08] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:09] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:09] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 363, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:11] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:12] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:13] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 369, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:14] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 369, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:22] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:23] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:24] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:28] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:28] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:28] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:28] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:28] INFO __main__ <module> 76: Serverdict Loaded Successfully
+[11/01/2018 00:41] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 00:42] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 00:44] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 00:46] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 00:46] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 371, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:47] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 371, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:49] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 00:49] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 371, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:50] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 371, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:50] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 00:50] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 371, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:50] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 371, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:51] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 371, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:51] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 371, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:51] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 00:52] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 372, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:55] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 00:55] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 400, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:55] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 400, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:56] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 00:56] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 400, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:56] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 00:57] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 400, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:57] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 400, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:58] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 400, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:58] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 400, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 00:58] ERROR errors on_command_error 277: CommandInvokeError
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "rotondex\__main__.py", line 400, in ready
+    if 'contest_channel' in server_dict[message.server.id]:
+KeyError: '393545294337277970'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\ext\commands\core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: KeyError: '393545294337277970'
+[11/01/2018 10:52] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 10:52] INFO __main__ _print 169: Starting up...
+[11/01/2018 10:53] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 10:53] INFO __main__ _print 169: Starting up...
+[11/01/2018 12:27] INFO __main__ _print 169: Starting up...
+[11/01/2018 16:57] INFO __main__ _print 169: Starting up...
+[11/01/2018 17:05] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 17:07] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 17:07] INFO __main__ _print 169: Starting up...
+[11/01/2018 17:10] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 17:10] INFO __main__ _print 169: Starting up...
+[11/01/2018 17:19] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 17:21] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 17:21] INFO __main__ _print 169: Starting up...
+[11/01/2018 17:26] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 17:26] INFO __main__ _print 169: Starting up...
+[11/01/2018 17:28] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 17:28] INFO __main__ _print 176: Starting up...
+[11/01/2018 17:30] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 17:30] INFO __main__ _print 176: Starting up...
+[11/01/2018 17:31] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 17:31] INFO __main__ _print 176: Starting up...
+[11/01/2018 17:33] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 17:33] INFO __main__ _print 176: Starting up...
+[11/01/2018 17:34] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[11/01/2018 17:34] INFO __main__ _print 176: Starting up...
+[11/01/2018 19:59] INFO __main__ _print 176: Starting up...
+[11/01/2018 21:37] INFO __main__ _print 176: Starting up...
+[11/01/2018 23:39] INFO __main__ _print 176: Starting up...
+[12/01/2018 07:29] INFO __main__ _print 176: Starting up...
+[12/01/2018 07:30] CRITICAL __main__ <module> 499: Fatal exception
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\gateway.py", line 430, in poll_event
+    msg = yield from self.recv()
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\websockets\protocol.py", line 319, in recv
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1006, no reason.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\client.py", line 448, in connect
+    yield from self.ws.poll_event()
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\gateway.py", line 435, in poll_event
+    raise ResumeWebSocket() from e
+discord.gateway.ResumeWebSocket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "rotondex\__main__.py", line 489, in <module>
+    event_loop.run_until_complete(RotomDex.start(config['bot_token']))
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\asyncio\base_events.py", line 342, in run_until_complete
+    return future.result()
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(value)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\client.py", line 491, in start
+    yield from self.connect()
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\gateway.py", line 207, in from_client
+    timeout=60, loop=client.loop)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\asyncio\tasks.py", line 378, in wait_for
+    return fut.result()
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\asyncio\tasks.py", line 239, in _step
+    result = coro.send(value)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\discord\gateway.py", line 65, in _ensure_coroutine_connect
+    ws = yield from websockets.connect(gateway, loop=loop, klass=klass)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\websockets\py35\client.py", line 19, in __await__
+    return (yield from self.client)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\site-packages\websockets\client.py", line 210, in connect
+    factory, wsuri.host, wsuri.port, **kwds)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\asyncio\base_events.py", line 607, in create_connection
+    infos = f1.result()
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\asyncio\futures.py", line 274, in result
+    raise self._exception
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\concurrent\futures\thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\_MyDrive\ProgramFiles\Python35\lib\socket.py", line 728, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+[12/01/2018 07:30] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[12/01/2018 07:30] INFO __main__ _print 176: Starting up...
+[12/01/2018 09:16] INFO __main__ _print 176: Starting up...
+[12/01/2018 11:22] INFO __main__ _print 176: Starting up...
+[14/01/2018 00:18] INFO __main__ <module> 75: Serverdict Loaded Successfully
+[14/01/2018 00:18] INFO __main__ _print 176: Starting up...
