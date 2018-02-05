@@ -11,7 +11,7 @@ from discord.ext import commands
 import spelling
 from errors import custom_error_handling
 from random import *
-
+from dateutil.relativedelta import relativedelta
 
 tessdata_dir_config = "--tessdata-dir 'C:\\Program Files (x86)\\Tesseract-OCR\\tessdata' "
 xtraconfig = "-l eng -c tessedit_char_blacklist=&|=+%#^*[]{};<> -psm 6"
@@ -172,6 +172,65 @@ def weakness_to_str(server, weak_list):
         ret += parse_emoji(server, config['type_id_dict'][weakness]) + x2 + " "
 
     return ret
+
+
+@RotomDex.command(pass_context=True, hidden=True)
+async def about(ctx):
+    """Shows info about RotomDex"""
+
+    author_repo = "https://github.com/TrainingB"
+    author_name = "TrainingB"
+    bot_repo = author_repo + "/RotomDex"
+    server_url = "https://discord.gg/{invite}".format(invite=INVITE_CODE)
+    owner = RotomDex.owner
+    channel = ctx.message.channel
+    uptime_str = await _uptime(RotomDex)
+    embed_colour = ctx.message.server.me.colour or discord.Colour.lighter_grey()
+
+    about = ("I'm RotomDex! A Basic Contest bot for Discord!\n\n"
+             "I was made by [{author_name}]({author_repo}).\n\n"
+             "[Join our server]({server_invite}) if you have any questions or feedback.\n\n"
+             "".format(author_name=author_name, author_repo=author_repo, server_invite=server_url))
+
+    member_count = 0
+    server_count = 0
+    for server in RotomDex.servers:
+        server_count += 1
+        member_count += len(server.members)
+
+    embed = discord.Embed(colour=embed_colour, icon_url=RotomDex.user.avatar_url)
+    embed.add_field(name="About Clembot", value=about, inline=False)
+    embed.add_field(name="Owner", value=owner)
+    embed.add_field(name="Servers", value=server_count)
+    embed.add_field(name="Members", value=member_count)
+    embed.add_field(name="Uptime", value=uptime_str)
+    embed.set_footer(text="For support, contact us on our Discord server. Invite Code: AUzEXRU")
+
+    try:
+        await RotomDex.send_message(channel, embed=embed)
+    except discord.HTTPException:
+        await RotomDex.send_message(channel, "I need the `Embed links` permission to send this")
+
+
+async def _uptime(bot):
+    """Shows info about Clembot"""
+    time_start = bot.uptime
+    time_now = datetime.datetime.now()
+    ut = (relativedelta(time_now, time_start))
+    ut.years, ut.months, ut.days, ut.hours, ut.minutes
+    if ut.years >= 1:
+        uptime = "{yr}y {mth}m {day}d {hr}:{min}".format(yr=ut.years, mth=ut.months, day=ut.days, hr=ut.hours, min=ut.minutes)
+    elif ut.months >= 1:
+        uptime = "{mth}m {day}d {hr}:{min}".format(mth=ut.months, day=ut.days, hr=ut.hours, min=ut.minutes)
+    elif ut.days >= 1:
+        uptime = "{day} days {hr} hrs {min} mins".format(day=ut.days, hr=ut.hours, min=ut.minutes)
+    elif ut.hours >= 1:
+        uptime = "{hr} hrs {min} mins {sec} secs".format(hr=ut.hours, min=ut.minutes, sec=ut.seconds)
+    else:
+        uptime = "{min} mins {sec} secs".format(min=ut.minutes, sec=ut.seconds)
+
+    return uptime
+
 
 @RotomDex.event
 async def on_ready():
